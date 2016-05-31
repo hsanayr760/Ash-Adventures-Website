@@ -1,21 +1,27 @@
 body {
-	width: 1280px;
-	margin: auto;
-	background: black;
+	max-width: 1280px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
 }
 
 header {
-	width: 1280px;
-	margin: auto;
-	height: 200px;
-	background-image: url("../img/River_001.jpg");
-	background-position: left bottom;
+	min-height: 20%;
+	background-color: darkslategray;
 }
 
-.companyName {
+.white {
 	color: white;
-	margin-left: 10px;
-	margin-top: 10px;
+}
+
+.titleText {
 	font-family: serif;
-	font-size: 4em;
+}
+
+.navBtn {
+	min-width: 20%;
+}
+
+.padTop {
+	padding-top: 1em;
 }
